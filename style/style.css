@@ -32,6 +32,11 @@ ul{
 
 li{
     padding-right: 0.8rem;
+   
+}
+
+.bold{
+    font-weight: bold;
 }
 
 .boolean-logo{
@@ -72,6 +77,49 @@ article{
   padding: 0.3rem 0.5rem;
 }
 
-div.like:hover i.red {
-    background-color: red;
+.percentuale{
+    position: absolute;
+  left: 25px;
+  bottom: 17px;
+  background-color: red;
+  color: white;
+  text-align: center;
+  padding: 0.1rem 0.3rem;
 }
+
+.sostenibilità{
+    position: absolute;
+    left:4.5rem;
+    bottom: 17px;
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 0.1rem 0.3rem;
+}
+
+.noleft{
+    position: absolute;
+    left: 24px;
+}
+
+div.like:hover i.red {
+ color: red;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1a1a1a;
+    color: white;
+    font-size: 9px;
+    line-height: 15px;
+    padding: 0.6rem 7.7rem 0.6rem 8.5rem;
+    width: 100%;
+}
+
+.icone{
+    display: inline;
+    list-style-type: none;
+}
+
